@@ -1,0 +1,10 @@
+@media screen and (max-width: 720px) {
+	.navbar-nav-links {
+		color: yellow;
+	}
+}
+
+/* .dropdown-content li > a,
+.dropdown-content li > span {
+	color: red;
+} */
