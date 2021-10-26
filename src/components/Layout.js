@@ -1,5 +1,6 @@
 import About from './About';
 import Home from './Home';
+import Skills from './Skills';
 const Layout = () => {
 	return (
 		<div className='layout margin-around'>
@@ -36,6 +37,7 @@ const Layout = () => {
 					{/* <h1>main content</h1> */}
 					<Home />
 					<About />
+					<Skills />
 				</div>
 			</div>
 		</div>
