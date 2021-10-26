@@ -25,11 +25,6 @@ const Navbar = () => {
 
 						<ul id='dropdown1' class='dropdown-content'>
 							<li>
-								<a href='sass.html' className='blue-text'>
-									Home
-								</a>
-							</li>
-							<li>
 								<a href='badges.html' className='blue-text'>
 									About
 								</a>
@@ -41,7 +36,22 @@ const Navbar = () => {
 							</li>
 							<li>
 								<a href='mobile.html' className='blue-text'>
+									Experience
+								</a>
+							</li>
+							<li>
+								<a href='mobile.html' className='blue-text'>
+									Education
+								</a>
+							</li>
+							<li>
+								<a href='mobile.html' className='blue-text'>
 									Projects
+								</a>
+							</li>
+							<li>
+								<a href='mobile.html' className='blue-text'>
+									Certifications
 								</a>
 							</li>
 							<li>
@@ -56,19 +66,39 @@ const Navbar = () => {
 
 			<ul class='sidenav' id='mobile-demo'>
 				<li>
-					<a href='sass.html'>Home</a>
+					<a href='badges.html' className='blue-text'>
+						About
+					</a>
 				</li>
 				<li>
-					<a href='badges.html'>About</a>
+					<a href='collapsible.html' className='blue-text'>
+						Skills
+					</a>
 				</li>
 				<li>
-					<a href='collapsible.html'>Skills</a>
+					<a href='mobile.html' className='blue-text'>
+						Experience
+					</a>
 				</li>
 				<li>
-					<a href='mobile.html'>Projects</a>
+					<a href='mobile.html' className='blue-text'>
+						Education
+					</a>
 				</li>
 				<li>
-					<a href='mobile.html'>Contact</a>
+					<a href='mobile.html' className='blue-text'>
+						Projects
+					</a>
+				</li>
+				<li>
+					<a href='mobile.html' className='blue-text'>
+						Certifications
+					</a>
+				</li>
+				<li>
+					<a href='mobile.html' className='blue-text'>
+						Contact
+					</a>
 				</li>
 			</ul>
 		</div>
