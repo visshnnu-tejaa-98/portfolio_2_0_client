@@ -6,7 +6,7 @@ const Navbar = () => {
 	}, []);
 	return (
 		<div className='navbar '>
-			<nav className='blue darken-2'>
+			<nav className='blue darken-3'>
 				<div class='nav-wrapper container'>
 					<a href='#!' class='brand-logo'>
 						<strong>My Portfolio</strong>
@@ -25,37 +25,37 @@ const Navbar = () => {
 
 						<ul id='dropdown1' class='dropdown-content'>
 							<li>
-								<a href='badges.html' className='blue-text'>
+								<a href='badges.html' className='blue-text text-darken-3'>
 									About
 								</a>
 							</li>
 							<li>
-								<a href='collapsible.html' className='blue-text'>
+								<a href='collapsible.html' className='blue-text text-darken-3'>
 									Skills
 								</a>
 							</li>
 							<li>
-								<a href='mobile.html' className='blue-text'>
+								<a href='mobile.html' className='blue-text text-darken-3'>
 									Experience
 								</a>
 							</li>
 							<li>
-								<a href='mobile.html' className='blue-text'>
+								<a href='mobile.html' className='blue-text text-darken-3'>
 									Education
 								</a>
 							</li>
 							<li>
-								<a href='mobile.html' className='blue-text'>
+								<a href='mobile.html' className='blue-text text-darken-3'>
 									Projects
 								</a>
 							</li>
 							<li>
-								<a href='mobile.html' className='blue-text'>
+								<a href='mobile.html' className='blue-text text-darken-3'>
 									Certifications
 								</a>
 							</li>
 							<li>
-								<a href='mobile.html' className='blue-text'>
+								<a href='mobile.html' className='blue-text text-darken-3'>
 									Contact
 								</a>
 							</li>
