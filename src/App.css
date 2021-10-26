@@ -18,6 +18,10 @@
 	background: #555;
 }
 
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+
 .ml-3 {
 	margin-left: 3rem;
 }
