@@ -1,4 +1,3 @@
-import '../styles/General.css';
 import Home from './Home';
 const Layout = () => {
 	return (
