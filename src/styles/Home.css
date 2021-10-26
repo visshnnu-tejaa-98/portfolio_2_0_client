@@ -27,6 +27,6 @@
 	font-size: 1.2rem;
 }
 
-/* #home {
-	height: 100vh;
-} */
+.home {
+	padding-bottom: 30px;
+}

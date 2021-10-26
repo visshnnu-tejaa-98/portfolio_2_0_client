@@ -1,9 +1,10 @@
+import About from './About';
 import Home from './Home';
 const Layout = () => {
 	return (
 		<div className='layout margin-around'>
 			<div className='row'>
-				<div className='col m3 color indigo lighten-4'>
+				<div className='col m3 side-content indigo lighten-4'>
 					<h1>side bar</h1>
 					<p className='p'>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem repudiandae
@@ -31,9 +32,10 @@ const Layout = () => {
 						iste itaque neque quasi deserunt nemo.
 					</p>
 				</div>
-				<div className='col m9 s12 color indigo lighten-5'>
+				<div className='col m9 s12  main-content indigo lighten-5 ' style={{ padding: 0 }}>
 					{/* <h1>main content</h1> */}
 					<Home />
+					<About />
 				</div>
 			</div>
 		</div>
