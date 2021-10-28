@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const ExperienceCard = ({ designation }) => {
+const DetailsCard = ({ heading, subHeading }) => {
 	const [visibility, setVisibility] = useState(false);
 	const visibilityHandler = () => {
 		setVisibility(!visibility);
@@ -8,8 +8,8 @@ const ExperienceCard = ({ designation }) => {
 	return (
 		<div className='card'>
 			<div onClick={visibilityHandler}>
-				<p className='designation'>{designation}</p>
-				<p className='company'>XSEED Education</p>
+				<p className='designation'>{heading}</p>
+				<p className='company'>{subHeading}</p>
 			</div>
 			<div className={!visibility ? 'visibility' : ''}>
 				<hr className='line' />
@@ -23,4 +23,4 @@ const ExperienceCard = ({ designation }) => {
 	);
 };
 
-export default ExperienceCard;
+export default DetailsCard;
