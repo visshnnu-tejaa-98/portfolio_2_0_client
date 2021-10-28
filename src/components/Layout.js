@@ -1,4 +1,5 @@
 import About from './About';
+import Experience from './Experience';
 import Home from './Home';
 import Skills from './Skills';
 const Layout = () => {
@@ -38,6 +39,7 @@ const Layout = () => {
 					<Home />
 					<About />
 					<Skills />
+					<Experience />
 				</div>
 			</div>
 		</div>

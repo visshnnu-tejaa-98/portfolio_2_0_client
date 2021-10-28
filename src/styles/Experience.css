@@ -1,0 +1,57 @@
+.experience-heading {
+	font-family: 'Lobster', cursive;
+}
+
+.card {
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+	border-left: 7px solid orangered;
+}
+.experience {
+	padding: 30px 0px 50px 0px;
+}
+.designation {
+	font-size: 1.6rem;
+	margin: 5px 3px 5px 0px;
+	font-weight: 600;
+	color: black;
+}
+.designation:hover {
+	cursor: pointer;
+	animation-name: company;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes company {
+	from {
+		color: black;
+		margin-left: 0px;
+	}
+	to {
+		color: indigo;
+		margin-left: 5px;
+	}
+}
+
+.company {
+	font-size: 1.1rem;
+	margin: 5px 5px 5px 0px;
+	color: grey;
+}
+
+.card-left {
+	margin: 0px;
+}
+
+.line {
+	height: 0.5px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	background-color: rgb(168, 167, 167);
+}
+
+.visibility {
+	display: none;
+}
