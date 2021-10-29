@@ -6,7 +6,7 @@ const DetailsCard = ({ heading, subHeading }) => {
 		setVisibility(!visibility);
 	};
 	return (
-		<div className='card'>
+		<div className='card-details card'>
 			<div onClick={visibilityHandler}>
 				<p className='designation'>{heading}</p>
 				<p className='company'>{subHeading}</p>

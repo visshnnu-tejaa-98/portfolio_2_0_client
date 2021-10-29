@@ -2,6 +2,7 @@ import About from './About';
 import Education from './Education';
 import Experience from './Experience';
 import Home from './Home';
+import Projects from './Projects';
 import Skills from './Skills';
 const Layout = () => {
 	return (
@@ -41,6 +42,7 @@ const Layout = () => {
 					<About />
 					<Skills />
 					<Experience />
+					<Projects />
 					<Education />
 				</div>
 			</div>

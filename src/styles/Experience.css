@@ -2,7 +2,7 @@
 	font-family: 'Lobster', cursive;
 }
 
-.card {
+.card-details {
 	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 	border-left: 7px solid orangered;
 }
