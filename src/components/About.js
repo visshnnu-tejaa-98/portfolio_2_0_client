@@ -1,7 +1,12 @@
 import '../styles/About.css';
 const About = () => {
 	return (
-		<div className='about indigo lighten-1 scale-up-center' data-aos='zoom-in-up' id='about'>
+		<div
+			className='about indigo lighten-1 scale-up-center'
+			id='about'
+			data-aos='zoom-in-up'
+			id='about'
+		>
 			<h1 className='about-heading center white-text scale-up-center '>About Me</h1>
 			<p className='about-para white-text'>
 				Mission-driven full stack developer with a passion for building a product that solves

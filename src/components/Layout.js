@@ -21,13 +21,27 @@ const Layout = () => {
 							technologies and deliver the goals in time.
 						</p>
 						<ul className='tabs-links'>
-							<li>Home</li>
-							<li>About</li>
-							<li>Skills</li>
-							<li>Experience</li>
-							<li>Projects</li>
-							<li>Education</li>
-							<li>Certificates</li>
+							<li>
+								<a href='#home'> Home</a>
+							</li>
+							<li>
+								<a href='#about'>About</a>
+							</li>
+							<li>
+								<a href='#skills'>Skills</a>
+							</li>
+							<li>
+								<a href='#experience'>Experience</a>
+							</li>
+							<li>
+								<a href='#projects'>Projects</a>
+							</li>
+							<li>
+								<a href='#education'>Education</a>
+							</li>
+							<li>
+								<a href='#certificates'>Certificates</a>
+							</li>
 						</ul>
 						<div className='contact-links'>
 							<i className='fab fa-linkedin-in'></i>

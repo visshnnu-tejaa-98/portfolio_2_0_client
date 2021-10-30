@@ -2,7 +2,7 @@ import '../styles/Contact.css';
 import ContactSVG from '../images/Contact.svg';
 const Contact = () => {
 	return (
-		<div className='contact indigo'>
+		<div className='contact indigo' id='contact'>
 			<div className='container'>
 				<div className='card contact-card'>
 					<div className='contact-by'>

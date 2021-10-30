@@ -7,7 +7,7 @@ const Skills = () => {
 	});
 	return (
 		<div className='container' id='skills'>
-			<div className='skills cursive-1 my-3  ' data-aos='fade-in'>
+			<div className='cursive-1 my-3  ' data-aos='fade-in'>
 				<h1 className='indigo-text skills-heading center'>My Skill Set</h1>
 			</div>
 

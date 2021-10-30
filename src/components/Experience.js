@@ -3,7 +3,7 @@ import DetailsCard from './DetailsCard';
 
 const Experience = () => {
 	return (
-		<div className='experience indigo lighten-0 '>
+		<div className='experience indigo lighten-0 ' id='experience'>
 			<h1 className='center experience-heading white-text'>Experience</h1>
 			<div className='container'>
 				<DetailsCard heading='Fullstack developer' subHeading='XSEED Education' />
