@@ -1,5 +1,6 @@
 import About from './About';
 import Certificates from './Certificates';
+import Contact from './Contact';
 import Education from './Education';
 import Experience from './Experience';
 import Home from './Home';
@@ -46,6 +47,7 @@ const Layout = () => {
 					<Projects />
 					<Education />
 					<Certificates />
+					<Contact />
 				</div>
 			</div>
 		</div>
