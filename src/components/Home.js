@@ -11,22 +11,22 @@ const Home = () => {
 				className='profile-img z-depth-2 slide-bottom'
 			/>
 			<div className='scale-up-center' data-aos='zoom-in-up'>
-				<p className='wish blue-text text-darken-2'>
+				<p className='wish indigo-text'>
 					Hello 👋<span className='emoji' aria-label='Wave'></span>
 				</p>
 				<p className='name'>
 					I'm
-					<strong className='blue-text text-darken-3'>
+					<strong className='indigo-text'>
 						&nbsp; Visshnnu Tejaa <br />
 					</strong>
 					<span className='profession'>-- Fullstack Developer</span>
 				</p>
 				<p className='projects-tagline'>Check My Projects and Resume ▼</p>
-				<a className='waves-effect waves-light btn blue darken-3 mb-5' href='#projects'>
+				<a className='waves-effect waves-light btn indigo mb-5' href='#projects'>
 					<i className='material-icons right'>code</i>My Projects
 				</a>
 				<a
-					className='waves-effect waves-light btn blue darken-3 mb-5 ml-3'
+					className='waves-effect waves-light btn indigo mb-5 ml-3'
 					href='https://drive.google.com/file/d/11zQGtpBOjesZZqFsFmAuhLLVJCj3HFaq/view?usp=sharing'
 				>
 					<i className='material-icons right'>code</i>Resume
