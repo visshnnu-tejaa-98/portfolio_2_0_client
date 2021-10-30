@@ -7,15 +7,15 @@ const Navbar = () => {
 	return (
 		<div className='navbar '>
 			<nav className='blue darken-3'>
-				<div class='nav-wrapper container'>
-					<a href='#!' class='brand-logo'>
+				<div className='nav-wrapper container'>
+					<a href='#!' className='brand-logo'>
 						<strong>My Portfolio</strong>
 					</a>
-					<a href='#' data-target='mobile-demo' class='sidenav-trigger'>
-						<i class='material-icons'>menu</i>
+					<a href='#' data-target='mobile-demo' className='sidenav-trigger'>
+						<i className='material-icons'>menu</i>
 					</a>
-					<ul class='right hide-on-med-and-down'>
-						<a class='dropdown-trigger btn btn-flat white' href='#' data-target='dropdown1'>
+					<ul className='right hide-on-med-and-down'>
+						<a className='dropdown-trigger btn btn-flat white' href='#' data-target='dropdown1'>
 							<span className='blue-text'>
 								<div>
 									<strong>Visshnnu ▼</strong>
@@ -23,7 +23,7 @@ const Navbar = () => {
 							</span>
 						</a>
 
-						<ul id='dropdown1' class='dropdown-content'>
+						<ul id='dropdown1' className='dropdown-content'>
 							<li>
 								<a href='badges.html' className='blue-text text-darken-3'>
 									About
@@ -64,7 +64,7 @@ const Navbar = () => {
 				</div>
 			</nav>
 
-			<ul class='sidenav' id='mobile-demo'>
+			<ul className='sidenav' id='mobile-demo'>
 				<li>
 					<a href='badges.html' className='blue-text'>
 						About

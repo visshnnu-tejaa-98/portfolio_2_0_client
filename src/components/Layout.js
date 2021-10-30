@@ -14,7 +14,13 @@ const Layout = () => {
 				<div className='col m3 side-content indigo lighten-4'>
 					<div>
 						<img src={Avatar} alt='' className='avatar' />
-						<ul>
+						<p className='carrier-objective'>
+							Seeking a job as to gain the more technical knowledge and give my best to the
+							organization from my knowledge. Looking forwarding to gain an opportunity that will
+							allow me to learn and master the latest technologies and eager to learn new
+							technologies and deliver the goals in time.
+						</p>
+						<ul className='tabs-links'>
 							<li>Home</li>
 							<li>About</li>
 							<li>Skills</li>
@@ -23,17 +29,13 @@ const Layout = () => {
 							<li>Education</li>
 							<li>Certificates</li>
 						</ul>
-						<div>
-							<div className='contact-links'>
-								<i class='fab fa-linkedin'></i>
-								<i class='fab fa-github'></i>
-								<i class='fab fa-facebook'></i>
-							</div>
-							<div className='contact-links'>
-								<i class='fab fa-instagram'></i>
-								<i class='fas fa-envelope'></i>
-								<i class='fas fa-phone-square-alt'></i>
-							</div>
+						<div className='contact-links'>
+							<i className='fab fa-linkedin-in'></i>
+							<i className='fab fa-github'></i>
+							<i className='fab fa-facebook'></i>
+							<i className='fab fa-instagram'></i>
+							<i className='far fa-envelope'></i>
+							<i className='fas fa-phone-alt'></i>
 						</div>
 					</div>
 				</div>
