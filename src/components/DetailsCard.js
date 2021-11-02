@@ -1,24 +1,24 @@
 import { useState } from 'react';
 
-const DetailsCard = ({ heading, subHeading }) => {
+const DetailsCard = ({ details }) => {
 	const [visibility, setVisibility] = useState(false);
 	const visibilityHandler = () => {
 		setVisibility(!visibility);
 	};
 	return (
 		<div className='card-details card'>
-			<div onClick={visibilityHandler}>
-				<p className='designation'>{heading}</p>
-				<p className='company'>{subHeading}</p>
-			</div>
-			<div className={!visibility ? 'visibility' : ''}>
-				<hr className='line' />
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, voluptatum totam! Dolor
-					totam quam nemo, fugiat voluptatibus enim accusantium officiis, illum ea, incidunt
-					perspiciatis maiores voluptates natus reprehenderit qui nisi.
-				</p>
-			</div>
+			{details && (
+				<div>
+					<div onClick={visibilityHandler}>
+						<p className='designation'>{details.designation}</p>
+						<p className='company'>{details.companyName}</p>
+					</div>
+					<div className={!visibility ? 'visibility' : ''}>
+						<hr className='line' />
+						<p>{details.description}</p>
+					</div>
+				</div>
+			)}
 		</div>
 	);
 };

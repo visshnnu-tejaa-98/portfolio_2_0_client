@@ -1,13 +1,22 @@
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { getUSerData } from '../redux/reducers';
 import '../styles/Experience.css';
 import DetailsCard from './DetailsCard';
 
 const Experience = () => {
+	const { user } = useSelector((state) => state.user);
+	const dispatch = useDispatch();
+	useEffect(() => {
+		dispatch(getUSerData());
+	}, []);
 	return (
 		<div className='experience indigo lighten-0 ' id='experience'>
 			<h1 className='center experience-heading white-text'>Experience</h1>
 			<div className='container'>
-				<DetailsCard heading='Fullstack developer' subHeading='XSEED Education' />
-				<DetailsCard heading='Mentor' subHeading='JD Solutions' />
+				{user.data.experience.map((exp) => {
+					return <DetailsCard details={exp} />;
+				})}
 			</div>
 		</div>
 	);
