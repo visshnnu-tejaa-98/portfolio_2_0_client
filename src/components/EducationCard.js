@@ -1,21 +1,21 @@
 import { useState } from 'react';
 
-const DetailsCard = ({ details }) => {
+const EducationCard = ({ edu }) => {
 	const [visibility, setVisibility] = useState(false);
 	const visibilityHandler = () => {
 		setVisibility(!visibility);
 	};
 	return (
 		<div className='card-details card'>
-			{details && (
+			{edu && (
 				<div>
 					<div onClick={visibilityHandler}>
-						<p className='designation'>{details.designation}</p>
-						<p className='company'>{details.companyName}</p>
+						<p className='designation'>{edu.specilization}</p>
+						<p className='company'>{edu.institute}</p>
 					</div>
 					<div className={!visibility ? 'visibility' : ''}>
 						<hr className='line' />
-						<p>{details.description}</p>
+						<p>{edu.description}</p>
 					</div>
 				</div>
 			)}
@@ -23,4 +23,4 @@ const DetailsCard = ({ details }) => {
 	);
 };
 
-export default DetailsCard;
+export default EducationCard;

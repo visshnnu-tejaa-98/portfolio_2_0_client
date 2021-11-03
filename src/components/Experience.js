@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUSerData } from '../redux/reducers';
 import '../styles/Experience.css';
-import DetailsCard from './DetailsCard';
+import ExperienceCard from './ExperienceCard';
 
 const Experience = () => {
 	const { user } = useSelector((state) => state.user);
@@ -15,7 +15,7 @@ const Experience = () => {
 			<h1 className='center experience-heading white-text'>Experience</h1>
 			<div className='container'>
 				{user.data.experience.map((exp) => {
-					return <DetailsCard details={exp} />;
+					return <ExperienceCard exp={exp} />;
 				})}
 			</div>
 		</div>
