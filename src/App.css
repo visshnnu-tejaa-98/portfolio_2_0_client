@@ -67,6 +67,10 @@ ul li a :hover {
 	font-size: 1.5rem;
 }
 
+.contact-links a {
+	color: indigo;
+}
+
 .carrier-objective {
 	color: rgb(89, 26, 134);
 	margin: 10px;

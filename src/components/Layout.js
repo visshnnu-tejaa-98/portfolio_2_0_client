@@ -55,12 +55,25 @@ const Layout = () => {
 								</li>
 							</ul>
 							<div className='contact-links'>
-								<i className='fab fa-linkedin-in'></i>
-								<i className='fab fa-github'></i>
-								<i className='fab fa-facebook'></i>
-								<i className='fab fa-instagram'></i>
-								<i className='far fa-envelope'></i>
-								<i className='fas fa-phone-alt'></i>
+								<a href={user.data.linkedinUrl}>
+									{/* <a href=''> */}
+									<i className='fab fa-linkedin-in'></i>
+								</a>
+								<a href={user.data.githubUrl}>
+									<i className='fab fa-github'></i>
+								</a>
+								<a href={user.data.facebookUrl}>
+									<i className='fab fa-facebook'></i>
+								</a>
+								<a href={user.data.instagramUrl}>
+									<i className='fab fa-instagram'></i>
+								</a>
+								<a href={user.data.email}>
+									<i className='far fa-envelope'></i>
+								</a>
+								<a href={user.data.mobile}>
+									<i className='fas fa-phone-alt'></i>
+								</a>
 							</div>
 						</div>
 					</div>
