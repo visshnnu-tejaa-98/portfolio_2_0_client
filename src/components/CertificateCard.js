@@ -12,45 +12,32 @@ const CertificateCard = ({ certificate }) => {
 							<i className='material-icons right'>more_vert</i>
 						</span>
 
-						<p>{certificate.description}</p>
-						{/* <div className='stack-details'>
-							<p>
-								<strong>Used Stack:</strong>
-								<i className='devicon-android-plain colored'></i>
-								<i className='devicon-c-plain colored'></i>
-								<i className='devicon-circleci-plain colored'></i>
-							</p>
-						</div> */}
-						{/* <div>
+						<p>
+							{certificate.description.length > 100 ? (
+								<span>
+									{`${certificate.description.slice(0, 90)}... `}
+									<span className='indigo-text activator show-pointer'>Read more</span>
+								</span>
+							) : (
+								certificate.description
+							)}
+						</p>
+						<div>
 							<a
 								className='waves-effect waves-dark btn btn-flat white indigo-text'
-								href={certificate.frontendUrl}
+								href={certificate.certificateUrl}
 							>
-								client
+								Certificate
 							</a>
-							<a
-								className='waves-effect waves-dark btn btn-flat white indigo-text'
-								href={certificate.backendUrl}
-							>
-								server
-							</a>
-							<a
-								className='waves-effect waves-dark btn btn-flat white indigo-text'
-								href={certificate.hostedUrl}
-							>
-								preview
-							</a>
-						</div> */}
+						</div>
 					</div>
 
 					<div className='card-reveal'>
 						<span className='card-title grey-text text-darken-4'>
-							Card Title<i className='material-icons right'>close</i>
+							{certificate.title}
+							<i className='material-icons right'>close</i>
 						</span>
-						<p>
-							Here is some more information about this product that is only revealed once clicked
-							on.
-						</p>
+						<p>{certificate.description}</p>
 					</div>
 				</div>
 			)}

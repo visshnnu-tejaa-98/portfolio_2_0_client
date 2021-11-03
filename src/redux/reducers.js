@@ -36,7 +36,6 @@ export const getUSerData = () => {
 			dispatch(getUserRequest());
 			const req = await fetch('http://localhost:3000/api/v1/user');
 			const res = await req.json();
-			console.log(res);
 			dispatch(getUserSuccess(res));
 		} catch (error) {
 			console.log(error);

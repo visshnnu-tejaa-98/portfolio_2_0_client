@@ -74,3 +74,7 @@ ul li a :hover {
 	width: 200px;
 	text-align: justify;
 }
+
+.show-pointer {
+	cursor: pointer;
+}

@@ -5,7 +5,6 @@ import '../styles/Projects.css';
 import ProjectCard from './ProjecCard';
 const Projects = () => {
 	const { user } = useSelector((state) => state.user);
-	console.log(user.data.experience);
 	const dispatch = useDispatch();
 	useEffect(() => {
 		dispatch(getUSerData());
